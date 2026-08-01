@@ -33,14 +33,16 @@
 		<dc:subject id="subject-1">Mystery fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
-		<meta property="schema:genre">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:genre">Mystery</meta>
+		<dc:description id="description">A beautiful young widow learns the dangers of gambling and mysteries of love and friendship on a long vacation to a suburb of Paris.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Sylvia Bailey, a beautiful young widow, and her friend Anna visit a fortune-teller in Paris and receive ominous warnings: for Anna, that she will have an incredible streak of fortune at gambling but shortly lose her life, and for Sylvia that she will meet a great lover but somehow be strangled by her beloved pearl necklace, a piece of exceedingly great value purchased against her lawyer’s advice with much of the wealth her late husband bequeathed her. The fortuneteller implores them not to leave Paris soon and certainly not together, but, ignoring the advice, they make their way to the picturesque town of Lacville. There, they set about playing baccarat and making friends with local characters, until a mysterious disappearance raises uneasy questions.&lt;/p&gt;
+			&lt;p&gt;This hair-raising mystery is the first of &lt;a href="https://standardebooks.org/ebooks/marie-belloc-lowndes"&gt;Marie Belloc Lowndes’s novels&lt;/a&gt; to have been adapted to the screen, and it showcases her understanding of the inner life of women, the mindset of the gambler and the discomforting experience of a silent haunting.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/16677</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/chinkinarmour00lown</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Chink_in_the_Armour" rel="schema:sameAs"/>
@@ -49,29 +51,27 @@
 		<link href="https://github.com/standardebooks/marie-belloc-lowndes_the-chink-in-the-armour" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Marie Belloc Lowndes</dc:creator>
 		<meta property="file-as" refines="#author">Lowndes, Marie Belloc</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="schema:alternateName" refines="#author">Marie Adelaide Elizabeth Rayner Lowndes</meta>
 		<link href="https://en.wikipedia.org/wiki/Marie_Belloc_Lowndes" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50043535.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<dc:contributor id="artist">Lucius Kutchin</dc:contributor>
+		<meta property="file-as" refines="#artist">Kutchin, Lucius</meta>
+		<link href="https://en.wikipedia.org/wiki/Lucius_Kutchin" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr2001034527.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Mary Meehan</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
+		<meta property="file-as" refines="#transcriber-2">Meehan, Mary</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Daniel K Lyons</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
+		<meta property="file-as" refines="#producer-1">Lyons, Daniel K</meta>
 		<link href="https://www.storytotell.org/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
@@ -113,6 +113,7 @@
 		<item href="text/chapter-24.xhtml" id="chapter-24.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-25.xhtml" id="chapter-25.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/epigraph.xhtml" id="epigraph.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -122,6 +123,7 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="epigraph.xhtml"/>
 		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="chapter-1.xhtml"/>
 		<itemref idref="chapter-2.xhtml"/>
